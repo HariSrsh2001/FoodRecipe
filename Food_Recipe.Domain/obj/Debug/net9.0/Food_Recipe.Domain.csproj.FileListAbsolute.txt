@@ -7,6 +7,7 @@ C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.
 C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.Domain.AssemblyInfoInputs.cache
 C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.Domain.AssemblyInfo.cs
 C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.Domain.sourcelink.json
 C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.Domain.dll
 C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\refint\Food_Recipe.Domain.dll
 C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.Domain.pdb

@@ -4,10 +4,10 @@ using Food_Recipe.Domain.Models;
 using Food_Recipe.DAL.Data;
 using Microsoft.EntityFrameworkCore;
 
-public class RecipeRepository : IRecipeRepository
+namespace Food_Recipe.DAL.Repositories;
+public class RecipeRepository(FoodRecipeDbContext ctx) : IRecipeRepository
 {
-    private readonly FoodRecipeDbContext _ctx;
-    public RecipeRepository(FoodRecipeDbContext ctx) => _ctx = ctx;
+    private readonly FoodRecipeDbContext _ctx = ctx;
 
     /* -------- FoodRecipes -------- */
     public IQueryable<RecipeEntity> FoodRecipes() => _ctx.FoodRecipes.AsQueryable();
@@ -36,6 +36,32 @@ public class RecipeRepository : IRecipeRepository
             _ctx.SaveChanges();
         }
     }
+
+    public void RemoveSaved(string username, int recipeId)
+    {
+        var saved = _ctx.SavedRecipes
+                        .FirstOrDefault(s => s.Username == username && s.RecipeId == recipeId);
+
+        if (saved is not null)
+        {
+            _ctx.SavedRecipes.Remove(saved);
+            _ctx.SaveChanges();
+        }
+    }
+
+    public void RemoveFavorite(string username, int recipeId)
+    {
+        var favorite = _ctx.FavoriteRecipes
+                           .FirstOrDefault(f => f.Username == username && f.RecipeId == recipeId);
+
+        if (favorite != null)
+        {
+            _ctx.FavoriteRecipes.Remove(favorite);
+            _ctx.SaveChanges();
+        }
+    }
+
+
 
     /* -------- PendingUserRecipes -------- */
     public IEnumerable<PendingUserRecipe> GetPending(string u) =>

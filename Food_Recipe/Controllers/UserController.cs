@@ -78,23 +78,7 @@ namespace Food_Recipe.Controllers
             return RedirectToAction("Login");
         }
 
-        // ---------- Forgot Password ----------
-        [HttpGet]
-        public IActionResult ForgotPassword() => View();
-
-        [HttpPost]
-        public async Task<IActionResult> ForgotPassword(string email)
-        {
-            var user = await _auth.GetUserByEmailAsync(email);
-            if (user == null)
-            {
-                ViewBag.Error = "Email not found.";
-                return View();
-            }
-
-            ViewBag.Message = "Password reset instructions sent (mock behavior).";
-            return View();
-        }
+        
 
         // ---------- Submit Recipe ----------
         [HttpPost]

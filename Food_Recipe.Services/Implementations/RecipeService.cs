@@ -22,23 +22,28 @@ namespace Food_Recipe.Services.Implementations
             var query = _repo.FoodRecipes();
 
             if (!string.IsNullOrWhiteSpace(search))
-                query = query.Where(r => r.Name.Contains(search) || r.Description.Contains(search));
+            {
+                var lowerSearch = search.ToLower();
+                query = query.Where(r => r.Name.ToLower().Contains(lowerSearch) ||
+                                         r.Description.ToLower().Contains(lowerSearch));
+            }
 
             if (!string.IsNullOrWhiteSpace(category) && category != "All")
-                query = query.Where(r => r.Category.Equals(category, StringComparison.OrdinalIgnoreCase));
+            {
+                var lowerCategory = category.ToLower();
+                query = query.Where(r => r.Category.ToLower() == lowerCategory);
+            }
 
             if (minRating > 0)
+            {
                 query = query.Where(r => r.Rating >= minRating);
+            }
 
             return query.ToList().Select(Convert).ToList();
         }
 
-        //public List<Recipe> GetByCategory(string category) =>
-        //    _repo.FoodRecipes()
-        //         .Where(r => r.Category.Equals(category, StringComparison.OrdinalIgnoreCase))
-        //         .ToList()
-        //         .Select(Convert)
-        //         .ToList();
+
+
         public List<Recipe> GetByCategory(string category) =>
     _repo.FoodRecipes()
          .Where(r => r.Category.ToLower() == category.ToLower())
@@ -63,6 +68,14 @@ namespace Food_Recipe.Services.Implementations
 
         public void MarkFavorite(int recipeId, string username) => _repo.AddFavorite(username, recipeId);
         public void MarkSaved(int recipeId, string username) => _repo.AddSaved(username, recipeId);
+
+        public void RemoveSavedRecipe(int recipeId, string username)
+    => _repo.RemoveSaved(username, recipeId);
+
+        public void RemoveFavoriteRecipe(int recipeId, string username)
+    => _repo.RemoveFavorite(username, recipeId);
+
+
 
         /* ------------ Pending workflow ------------ */
         public List<PendingUserRecipe> GetPendingRecipesByUser(string username) =>
@@ -107,17 +120,21 @@ namespace Food_Recipe.Services.Implementations
         }
 
         /* ------------ Mapping ------------ */
-        private static Recipe Convert(RecipeEntity r) => new()
+        private static Recipe Convert(RecipeEntity r)
         {
-            Id = r.Id,
-            Name = r.Name,
-            Category = r.Category,
-            Description = r.Description,
-            Img = r.Img,
-            Rating = r.Rating,
-            Ingredients = JsonConvert.DeserializeObject<List<string>>(r.Ingredients ?? "[]"),
-            Instructions = JsonConvert.DeserializeObject<List<string>>(r.Instructions ?? "[]"),
-            Nutrition = JsonConvert.DeserializeObject<Nutrition>(r.Nutrition ?? "{}")
-        };
+            return new()
+            {
+                Id = r.Id,
+                Name = r.Name,
+                Category = r.Category,
+                Description = r.Description,
+                Img = r.Img,
+                Rating = r.Rating,
+                Ingredients = JsonConvert.DeserializeObject<List<string>>(r.Ingredients ?? "[]") ?? new List<string>(),
+                Instructions = JsonConvert.DeserializeObject<List<string>>(r.Instructions ?? "[]") ?? new List<string>(),
+                Nutrition = JsonConvert.DeserializeObject<Nutrition>(r.Nutrition ?? "{}") ?? new Nutrition()
+
+            };
+        }
     }
 }

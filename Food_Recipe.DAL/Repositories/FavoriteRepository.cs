@@ -5,10 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Food_Recipe.DAL.Repositories;
 
-public class FavoriteRepository : IFavoriteRepository
+public class FavoriteRepository(FoodRecipeDbContext ctx) : IFavoriteRepository
 {
-    private readonly FoodRecipeDbContext _ctx;
-    public FavoriteRepository(FoodRecipeDbContext ctx) => _ctx = ctx;
+    private readonly FoodRecipeDbContext _ctx = ctx;
 
     public Task<List<int>> GetFavoriteRecipeIdsAsync(string u)
         => _ctx.FavoriteRecipes

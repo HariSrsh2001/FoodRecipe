@@ -1,5 +1,5 @@
-﻿// File: Food_Recipe.Domain.Interfaces/IRecipeRepository.cs
-using Food_Recipe.Domain.Models;
+﻿using Food_Recipe.Domain.Models;
+namespace Food_Recipe.Domain.Interfaces;
 
 public interface IRecipeRepository
 {
@@ -12,6 +12,11 @@ public interface IRecipeRepository
     IEnumerable<int> GetSavedIds(string user);
     void AddFavorite(string user, int id);
     void AddSaved(string user, int id);
+
+    void RemoveSaved(string user, int id);
+
+    void RemoveFavorite(string username, int recipeId);
+
 
     /* PendingUserRecipes */
     IEnumerable<PendingUserRecipe> GetPending(string user);

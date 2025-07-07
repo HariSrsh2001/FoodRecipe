@@ -5,10 +5,9 @@ using System.Linq;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Food_Recipe.Domain.Models;   // domain layer types
-//using Food_Recipe.Models;          // view‑model types
+using Food_Recipe.Domain.Models;            
 using Food_Recipe.Services.Interfaces;
-
+namespace Food_Recipe.Controllers;
 public class HomeController : Controller
 {
     private readonly IRecipeService _service;
@@ -49,14 +48,7 @@ public class HomeController : Controller
 
     /* ------------------ My Recipes ------------------ */
     public IActionResult MyRecipes()
-    {
-        //var username = UserName();
-        //var pending = _service.GetPendingRecipesByUser(username);
-        //var approved = _service.GetApprovedRecipesByUser(username);
-
-        //ViewBag.Status = _service.GetRecipeStatuses(pending);
-        //ViewBag.Approved = approved;
-        //return View("MyRecipes", pending);   
+    {  
         var username = UserName();
 
         var pendingDomain = _service.GetPendingRecipesByUser(username);
@@ -81,7 +73,7 @@ public class HomeController : Controller
 
         var imgUrl = _service.SaveImage(imageFile, _env.WebRootPath);
 
-        var rec = new Food_Recipe.Domain.Models.PendingUserRecipe
+        var rec = new PendingUserRecipe
         {
             Username = user,
             Name = name,
@@ -154,7 +146,21 @@ public class HomeController : Controller
 
     /* ------------------ Favourite / Save ------------------ */
     [HttpPost] public IActionResult AddToFavorite(int id) => AddMark(id, true);
-    [HttpPost] public IActionResult AddToSaved(int id) => AddMark(id, false);
+    [HttpPost] public IActionResult AddToSaved(int id) => AddMark(id, false); [HttpPost]
+    public IActionResult RemoveSaved(int id)
+    {
+        var username = UserName();
+        _service.RemoveSavedRecipe(id, username); // Make sure this method exists in your service
+        return RedirectToAction("Saved");
+    }
+    [HttpPost]
+    public IActionResult RemoveFavorite(int id)
+    {
+        _service.RemoveFavoriteRecipe(id, UserName());
+        return RedirectToAction("Favorite");
+    }
+
+
 
     private IActionResult AddMark(int id, bool fav)
     {
@@ -167,28 +173,25 @@ public class HomeController : Controller
         return Redirect(Request.Headers["Referer"].ToString() ?? "/");
     }
 
-    //public IActionResult DeleteApprovedRecipe(int id)
-    //{
-    //    var username = UserName();
-    //    _service.DeleteApprovedRecipe(id, username); // service checks ownership
-    //    return RedirectToAction(nameof(MyRecipes));
-    //}
+    
 
     /* ------------------ Helpers ------------------ */
     private string UserName() =>
         HttpContext.Session.GetString("Username") ?? "Guest";
 
-    private static Food_Recipe.Domain.Models.Recipe MapToViewModel(Food_Recipe.Domain.Models.Recipe r) => new()
+    private static Recipe MapToViewModel(Recipe r)
     {
-        Id = r.Id,
-        Name = r.Name,
-        Category = r.Category,
-        Ingredients = r.Ingredients,
-        Instructions = r.Instructions,
-        Description = r.Description,
-        Img = r.Img,
-        Rating = r.Rating,
-        //CreatedAt = r.CreatedAt,
-        //Username = r.Username
-    };
+        return new()
+        {
+            Id = r.Id,
+            Name = r.Name,
+            Category = r.Category,
+            Ingredients = r.Ingredients,
+            Instructions = r.Instructions,
+            Description = r.Description,
+            Img = r.Img,
+            Rating = r.Rating,
+            Nutrition = r.Nutrition
+        };
+    }
 }

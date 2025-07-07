@@ -3,8 +3,7 @@
 public interface ISavedRepository
 {
     Task<List<int>> GetSavedRecipeIdsAsync(string username);
-    //Task AddAsync(string username, int recipeId);
-    //Task RemoveAsync(string username, int recipeId);
+  
     Task<bool> IsSavedAsync(string username, int recipeId);
     Task AddToSavedAsync(string username, int recipeId);
     Task RemoveFromSavedAsync(string username, int recipeId);

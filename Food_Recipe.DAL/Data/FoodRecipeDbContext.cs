@@ -1,4 +1,4 @@
-﻿using Food_Recipe.Domain.Models; // Ensure this contains your models like AppUser
+﻿using Food_Recipe.Domain.Models; 
 using Microsoft.EntityFrameworkCore;
 using System.Reflection.Emit;
 
@@ -7,8 +7,6 @@ namespace Food_Recipe.DAL.Data
     public class FoodRecipeDbContext : DbContext
     {
         public FoodRecipeDbContext(DbContextOptions<FoodRecipeDbContext> options) : base(options) { }
-
-        //public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<RecipeEntity> FoodRecipes { get; set; }
         public DbSet<PendingUserRecipe> PendingUserRecipes { get; set; }
         public DbSet<UserRecipe> UserRecipes { get; set; }
@@ -18,9 +16,8 @@ namespace Food_Recipe.DAL.Data
 
         protected override void OnModelCreating(ModelBuilder mb)
         {
-            //mb.Entity<AppUser>().ToTable("Users");
+            
             mb.Entity<User>().ToTable("Users");
-
             mb.Entity<RecipeEntity>().ToTable("FoodRecipes");
             mb.Entity<PendingUserRecipe>().ToTable("PendingUserRecipes");
             mb.Entity<UserRecipe>().ToTable("UserRecipes");

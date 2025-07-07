@@ -4,7 +4,7 @@ using Food_Recipe.Domain.Interfaces;
 using Food_Recipe.Services.Interfaces;
 using System.Threading.Tasks;
 
-namespace Food_Recipe.Services
+namespace Food_Recipe.Services.Implementations
 {
     public class AuthService : IAuthService
     {

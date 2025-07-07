@@ -9,7 +9,7 @@ namespace Food_Recipe.Domain.Models
         public int Id { get; set; }
 
         [Required]
-        public string Username { get; set; }  // Or use UserId if you have it
+        public required string Username { get; set; }  // Or use UserId if you have it
 
         [Required]
         public int RecipeId { get; set; }

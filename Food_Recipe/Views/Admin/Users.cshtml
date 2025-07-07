@@ -24,13 +24,6 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
         }
 
-        /* .recipe-grid {
-                    display: grid;
-                    gap: 24px;
-                    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-                    margin: 40px 0;
-                } */
-
         .recipe-card {
             background: #fff;
             border: 1px solid #ddd;
@@ -63,7 +56,7 @@
             margin-bottom: 6px;
         }
 
-        /* ✅ White outline button styles */
+       
         .btn-outline-white {
             color: white;
             border-color: white;
@@ -80,24 +73,24 @@
                 border-color: white;
             }
 
-            /* 🎨 Optional: Colored background on hover by type */
+           
             .btn-outline-white.approved:hover {
-                background-color: #28a745; /* green */
+                background-color: #28a745; 
                 color: white;
             }
 
             .btn-outline-white.pending:hover {
-                background-color: #ffc107; /* yellow */
+                background-color: #ffc107;
                 color: white;
             }
 
             .btn-outline-white.users:hover {
-                background-color: #17a2b8; /* blue */
+                background-color: #17a2b8; 
                 color: white;
             }
 
             .btn-outline-white.logout:hover {
-                background-color: #dc3545; /* red */
+                background-color: #dc3545; 
                 color: white;
             }
 
@@ -106,12 +99,9 @@
 
 <body class="bg-light">
     <header class="topbar d-flex justify-content-between align-items-center p-3">
-        @* <img src="~/images/Delicious_Recipes.png" alt="Logo" />
-        <h3>Delicious Recipes</h3> *@
-        <div class="logo-title d-flex align-items-center gap-2">
-            <img src="~/images/Delicious_Recipes.png" alt="Logo" class="logo-img" />
-            <h3 class="mt-0">Delicious Recipes </h3>
-        </div>
+        <img src="~/images/Delicious_Recipes.png" alt="Logo" />
+        <h3>Delicious Recipes</h3>
+        
         <h3>Admin Dashboard</h3>
         
         <div>
@@ -138,7 +128,7 @@
                     <th>ID</th>
                     <th>Username</th>
                     <th>Gmail</th>
-                    <th>Password</th> <!-- NOTE: Avoid showing real passwords in production -->
+                    <th>Password</th> 
                 </tr>
             </thead>
             <tbody>

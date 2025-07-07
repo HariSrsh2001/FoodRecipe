@@ -5,13 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Food_Recipe.DAL.Repositories;
 
-public class SavedRepository : ISavedRepository
+public class SavedRepository(FoodRecipeDbContext ctx) : ISavedRepository
 {
-    private readonly FoodRecipeDbContext _ctx;
-    public SavedRepository(FoodRecipeDbContext ctx)
-    {
-        _ctx = ctx;
-    }
+    private readonly FoodRecipeDbContext _ctx = ctx;
 
     public Task<List<int>> GetSavedRecipeIdsAsync(string u)
         => _ctx.SavedRecipes

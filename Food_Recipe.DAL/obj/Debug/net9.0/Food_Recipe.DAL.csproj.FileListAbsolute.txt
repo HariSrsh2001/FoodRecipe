@@ -9,6 +9,7 @@ C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Recipe.DAL
 C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Recipe.DAL.AssemblyInfoInputs.cache
 C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Recipe.DAL.AssemblyInfo.cs
 C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Recipe.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Recipe.DAL.sourcelink.json
 C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Rec.5152D4FF.Up2Date
 C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Recipe.DAL.dll
 C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\refint\Food_Recipe.DAL.dll

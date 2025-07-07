@@ -14,6 +14,11 @@ public interface IRecipeService
     void MarkFavorite(int recipeId, string username);
     void MarkSaved(int recipeId, string username);
 
+    void RemoveSavedRecipe(int recipeId, string username);
+
+    void RemoveFavoriteRecipe(int recipeId, string username);
+
+
     /* Pending recipe workflow */
     List<PendingUserRecipe> GetPendingRecipesByUser(string username);
     PendingUserRecipe? GetPendingRecipeById(int id);

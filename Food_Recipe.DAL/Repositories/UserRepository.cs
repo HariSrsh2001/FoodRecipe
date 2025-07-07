@@ -7,14 +7,9 @@ using System.Threading.Tasks;
 
 namespace Food_Recipe.DAL.Repositories
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository(FoodRecipeDbContext context) : IUserRepository
     {
-        private readonly FoodRecipeDbContext _context;
-
-        public UserRepository(FoodRecipeDbContext context)
-        {
-            _context = context;
-        }
+        private readonly FoodRecipeDbContext _context = context;
 
         public async Task<bool> UserExistsAsync(string username, string email)
         {

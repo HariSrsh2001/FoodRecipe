@@ -10,7 +10,7 @@ namespace Food_Recipe.Domain.Interfaces
         Task AddAsync(User user);
         Task<User?> FindForLoginAsync(string input); // username or email
         Task<User?> GetByEmailAsync(string email);
-        //List<UserRecipe> GetApprovedRecipesByUser(string username);
+        
 
     }
 }

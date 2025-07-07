@@ -3,9 +3,11 @@ C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.Generat
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.AssemblyInfoInputs.cache
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.AssemblyInfo.cs
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.csproj.CoreCompileInputs.cache
+C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.RazorAssemblyInfo.cache
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.RazorAssemblyInfo.cs
+C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.sourcelink.json
 C:\Users\Kaar User\source\repos\Food_Recipe\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\Kaar User\source\repos\Food_Recipe\bin\Debug\net9.0\appsettings.json
 C:\Users\Kaar User\source\repos\Food_Recipe\bin\Debug\net9.0\Food_Recipe.staticwebassets.runtime.json
@@ -451,11 +453,12 @@ C:\Users\Kaar User\source\repos\Food_Recipe\bin\Debug\net9.0\Food_Recipe.Service
 C:\Users\Kaar User\source\repos\Food_Recipe\bin\Debug\net9.0\Food_Recipe.DAL.pdb
 C:\Users\Kaar User\source\repos\Food_Recipe\bin\Debug\net9.0\Food_Recipe.Domain.pdb
 C:\Users\Kaar User\source\repos\Food_Recipe\bin\Debug\net9.0\Food_Recipe.Services.pdb
-C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\scopedcss\bundle\Food_Recipe.styles.css
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\scopedcss\projectbundle\Food_Recipe.bundle.scp.css
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\9pvrc9t2yh-61n19gt1b8.gz
+C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\w67i5yzaed-28xmupxmah.gz
+C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\29a4a5w1wa-9px40liuho.gz
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\xsjowigs1n-bqjiyaj88i.gz
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\x8uyyadkwv-c2jlpeoesf.gz
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\ezwrgr3d1n-erw9l3u2r3.gz
@@ -515,8 +518,6 @@ C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\n8exlypg
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\p20io9wuav-muycvpuwrr.gz
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\x5a3vlf0qq-87fc7y1x7t.gz
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\tcpfo8v387-mlv21k5csn.gz
-C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\w67i5yzaed-28xmupxmah.gz
-C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\29a4a5w1wa-vhe82qnnbp.gz
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\w1j01ifqxr-f8nkajfwy0.gz
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\gk8x1jp0ih-f8nkajfwy0.gz
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\staticwebassets.build.json
@@ -530,5 +531,4 @@ C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\refint\Food_Recipe.
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.pdb
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.genruntimeconfig.cache
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\ref\Food_Recipe.dll
-C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.sourcelink.json
-C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\xv3lknwn0t-relnr9y32f.gz
+C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\xv3lknwn0t-jmxbm3v8tp.gz

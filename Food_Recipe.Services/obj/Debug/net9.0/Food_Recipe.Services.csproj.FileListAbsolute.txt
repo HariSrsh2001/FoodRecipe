@@ -1,8 +1,3 @@
-C:\Users\Kaar User\source\repos\Food_Recipe.Services\obj\Debug\net9.0\Food_Recipe.Services.csproj.AssemblyReference.cache
-C:\Users\Kaar User\source\repos\Food_Recipe.Services\obj\Debug\net9.0\Food_Recipe.Services.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Kaar User\source\repos\Food_Recipe.Services\obj\Debug\net9.0\Food_Recipe.Services.AssemblyInfoInputs.cache
-C:\Users\Kaar User\source\repos\Food_Recipe.Services\obj\Debug\net9.0\Food_Recipe.Services.AssemblyInfo.cs
-C:\Users\Kaar User\source\repos\Food_Recipe.Services\obj\Debug\net9.0\Food_Recipe.Services.csproj.CoreCompileInputs.cache
 C:\Users\Kaar User\source\repos\Food_Recipe.Services\bin\Debug\net9.0\Food_Recipe.Services.deps.json
 C:\Users\Kaar User\source\repos\Food_Recipe.Services\bin\Debug\net9.0\Food_Recipe.Services.runtimeconfig.json
 C:\Users\Kaar User\source\repos\Food_Recipe.Services\bin\Debug\net9.0\Food_Recipe.Services.dll
@@ -11,6 +6,12 @@ C:\Users\Kaar User\source\repos\Food_Recipe.Services\bin\Debug\net9.0\Food_Recip
 C:\Users\Kaar User\source\repos\Food_Recipe.Services\bin\Debug\net9.0\Food_Recipe.Domain.dll
 C:\Users\Kaar User\source\repos\Food_Recipe.Services\bin\Debug\net9.0\Food_Recipe.Domain.pdb
 C:\Users\Kaar User\source\repos\Food_Recipe.Services\bin\Debug\net9.0\Food_Recipe.DAL.pdb
+C:\Users\Kaar User\source\repos\Food_Recipe.Services\obj\Debug\net9.0\Food_Recipe.Services.csproj.AssemblyReference.cache
+C:\Users\Kaar User\source\repos\Food_Recipe.Services\obj\Debug\net9.0\Food_Recipe.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaar User\source\repos\Food_Recipe.Services\obj\Debug\net9.0\Food_Recipe.Services.AssemblyInfoInputs.cache
+C:\Users\Kaar User\source\repos\Food_Recipe.Services\obj\Debug\net9.0\Food_Recipe.Services.AssemblyInfo.cs
+C:\Users\Kaar User\source\repos\Food_Recipe.Services\obj\Debug\net9.0\Food_Recipe.Services.csproj.CoreCompileInputs.cache
+C:\Users\Kaar User\source\repos\Food_Recipe.Services\obj\Debug\net9.0\Food_Recipe.Services.sourcelink.json
 C:\Users\Kaar User\source\repos\Food_Recipe.Services\obj\Debug\net9.0\Food_Rec.CAA2D134.Up2Date
 C:\Users\Kaar User\source\repos\Food_Recipe.Services\obj\Debug\net9.0\Food_Recipe.Services.dll
 C:\Users\Kaar User\source\repos\Food_Recipe.Services\obj\Debug\net9.0\refint\Food_Recipe.Services.dll

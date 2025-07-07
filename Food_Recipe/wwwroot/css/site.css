@@ -334,13 +334,6 @@ footer {
         transform: scale(1.03);
         box-shadow: 0 10px 20px rgba(0,0,0,0.2);
     }
-
-
-/*    .recipe-card.show {
-        opacity: 1;
-        transform: translateY(0);
-    }*/
-/* Initial animation style */
 .welcome-heading {
     font-size: 1.5rem;
     color: black;

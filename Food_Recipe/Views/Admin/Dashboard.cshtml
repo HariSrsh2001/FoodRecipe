@@ -1,12 +1,12 @@
 ﻿@using Newtonsoft.Json.Linq
 @model dynamic  
 <!-- either List<UserRecipe> OR List<PendingUserRecipe> -->
-
 @{
     Layout = null;
-    string status = (string)Context.Request.Query["status"];
-    status = string.IsNullOrWhiteSpace(status) ? "approved" : status.ToLower();
+    string? rawStatus = Context.Request.Query["status"].ToString();
+    string status = string.IsNullOrWhiteSpace(rawStatus) ? "approved" : rawStatus.ToLower();
 }
+
 
 <!doctype html>
 <html>
@@ -25,13 +25,6 @@
             border-bottom: 1px solid #ddd;
             box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
         }
-
-        /* .recipe-grid {
-            display: grid;
-            gap: 24px;
-            grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-            margin: 40px 0;
-        } */
 
         .recipe-card {
             background: #fff;
@@ -65,7 +58,7 @@
             margin-bottom: 6px;
         }
 
-        /* ✅ White outline button styles */
+        
         .btn-outline-white {
             color: white;
             border-color: white;
@@ -82,24 +75,24 @@
                 border-color: white;
             }
 
-            /* 🎨 Optional: Colored background on hover by type */
+           
             .btn-outline-white.approved:hover {
-                background-color: #28a745; /* green */
+                background-color: #28a745; 
                 color: white;
             }
 
             .btn-outline-white.pending:hover {
-                background-color: #ffc107; /* yellow */
+                background-color: #ffc107; 
                 color: white;
             }
 
             .btn-outline-white.users:hover {
-                background-color: #17a2b8; /* blue */
+                background-color: #17a2b8; 
                 color: white;
             }
 
             .btn-outline-white.logout:hover {
-                background-color: #dc3545; /* red */
+                background-color: #dc3545; 
                 color: white;
             }
 
@@ -108,17 +101,10 @@
 
 <body class="bg-light">
 <header class="topbar d-flex justify-content-between align-items-center p-3">
-        @* <img src="~/images/Delicious_Recipes.png" alt="Logo" />
-        <h1>Delicious Recipes</h1> *@
-        <div class="logo-title d-flex align-items-center gap-2">
-            <img src="~/images/Delicious_Recipes.png" alt="Logo" class="logo-img" />
-            <h3 class="mt-0">Delicious Recipes </h3>
-        </div>
-
-        
+        <img src="~/images/Delicious_Recipes.png" alt="Logo" />
+        <h1>Delicious Recipes</h1>
     <h3>Admin Dashboard</h3>
-        @* <img src="~/images/Delicious_Recipes.png" alt="Logo" />
-        <h1>Delicious Recipes</h1> *@
+        
     <div>
             <a asp-controller="Admin" asp-action="Dashboard" asp-route-status="approved"
                class="btn btn-outline-white btn-sm me-2 approved">Approved ✅</a>
@@ -175,24 +161,7 @@
                             </ol>
                         </div>
 
-                        @* Pretty nutrition if JSON *@
-                        @* @{
-                            JObject n=null;
-                            if(!string.IsNullOrWhiteSpace(r.Nutrition))
-                            { try{ n=JObject.Parse(r.Nutrition);}catch{} }
-                        } *@
-                        @* @if(n!=null)
-                        {
-                            <div class="mt-2">
-                                <strong>Nutrition:</strong>
-                                <ul class="mb-0">
-                                    <li>Calories: @n["calories"]</li>
-                                    <li>Protein : @n["protein"]</li>
-                                    <li>Carbs   : @n["carbs"]</li>
-                                    <li>Fat     : @n["fat"]</li>
-                                </ul>
-                            </div>
-                        } *@
+                        
                     </div>
                 }
             </div>
@@ -237,15 +206,7 @@
                             <a asp-action="EditRecipe" asp-route-id="@r.Id"
                                class="btn btn-outline-primary btn-sm w-100 mb-2">✏️ Edit</a>
 
-                            @* <form asp-action="Approve" method="post">
-                                <input type="hidden" name="id" value="@r.Id"/>
-                                <button class="btn btn-success btn-sm w-100 ">Approve ✅</button>
-                            </form>
-
-                            <form asp-action="Reject" method="post" class="mt-1">
-                                <input type="hidden" name="id" value="@r.Id"/>
-                                <button class="btn btn-danger btn-sm w-100">Reject ❌</button>
-                            </form> *@
+                            
                                 <div class="row g-2">
                                     <div class="col-12">
                                         <form asp-action="Approve" method="post">

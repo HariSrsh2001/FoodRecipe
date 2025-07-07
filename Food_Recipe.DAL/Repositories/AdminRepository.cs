@@ -5,10 +5,9 @@ using System.Linq;
 
 namespace Food_Recipe.DAL.Repositories;
 
-public class AdminRepository : IAdminRepository
+public class AdminRepository(FoodRecipeDbContext ctx) : IAdminRepository
 {
-    private readonly FoodRecipeDbContext _ctx;
-    public AdminRepository(FoodRecipeDbContext ctx) => _ctx = ctx;
+    private readonly FoodRecipeDbContext _ctx = ctx;
 
     public List<User> GetAllUsers() => _ctx.Users.ToList();
 

@@ -4,7 +4,7 @@ public class FavoriteRecipe
 {
     public int Id { get; set; }
 
-    public string Username { get; set; }
+    public required string Username { get; set; }
 
     public int RecipeId { get; set; }
 
