@@ -161,6 +161,8 @@ wwwroot\uploads\09f74ff2-abe2-49d8-be9d-c149ffaee2e2.webp
 wwwroot\uploads\0c312423-d8fa-4bf0-9776-b8b36aafd928.webp
 wwwroot\uploads\23cf68fe-5f5a-4aaa-9bd4-382c9b5e09c2.webp
 wwwroot\uploads\274a2fc3-14f6-434a-8026-368bfcd858dc.webp
+wwwroot\uploads\40b9387a-4006-4077-a802-4aacdf924bb9.webp
+wwwroot\uploads\41438207-5305-4a4e-acc3-b78c3cd9e361.webp
 wwwroot\uploads\497066c1-c06d-44c7-a6bc-83af8a63e765.webp
 wwwroot\uploads\5b13c3bb-b06a-4c94-bc7f-33639cd1786f.webp
 wwwroot\uploads\5b3f7103-9c9d-43fd-ada4-8c2a86837e39.webp

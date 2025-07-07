@@ -455,7 +455,6 @@ C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.MvcAppl
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\scopedcss\bundle\Food_Recipe.styles.css
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\scopedcss\projectbundle\Food_Recipe.bundle.scp.css
-C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\xv3lknwn0t-4bfvh3ctep.gz
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\9pvrc9t2yh-61n19gt1b8.gz
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\xsjowigs1n-bqjiyaj88i.gz
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\x8uyyadkwv-c2jlpeoesf.gz
@@ -531,3 +530,5 @@ C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\refint\Food_Recipe.
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.pdb
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.genruntimeconfig.cache
 C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\ref\Food_Recipe.dll
+C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\Food_Recipe.sourcelink.json
+C:\Users\Kaar User\source\repos\Food_Recipe\obj\Debug\net9.0\compressed\xv3lknwn0t-relnr9y32f.gz

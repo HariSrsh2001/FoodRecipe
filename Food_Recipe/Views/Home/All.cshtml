@@ -171,79 +171,90 @@
 <!-- 🎨 Modal & Style -->
 <style>
     .modal-overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, 0.6);
-        z-index: 1000;
-        display: none;
-    }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    display: none;
+}
 
-    .recipe-modal {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background: #fff;
-        z-index: 1001;
-        max-width: 800px;
-        width: 90%;
-        max-height: 90vh;
-        overflow-y: auto;
-        border-radius: 12px;
-        padding: 30px;
-        display: none;
-        box-shadow: 0 8px 25px rgba(0,0,0,0.3);
-    }
+.recipe-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    z-index: 1001;
+    max-width: 800px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 12px;
+    padding: 30px;
+    display: none;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
 
-    .modal-inner {
-        max-width: 700px;
-        margin: 0 auto;
-        text-align: left;
-    }
+.modal-inner {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
 
-    .btn-close-red {
-        position: absolute;
-        top: 10px;
-        right: 0px;
-        font-size: 2rem;
-        background: none;
-        border: none;
-        color: red;
-        font-weight: bold;
-        cursor: pointer;
-        z-index:2056;
-    }
+.btn-close-red {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 2056;
+}
 
-    .recipe-card {
-        cursor: pointer;
-        transition: transform 0.2s;
-    }
+.recipe-card {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
 
-        .recipe-card:hover {
-            transform: scale(1.01);
-        }
+.recipe-card:hover {
+    transform: scale(1.01);
+}
 
-    .full-recipe-content ul,
-    .full-recipe-content ol {
-        padding-left: 20px;
-    }
+.full-recipe-content ul,
+.full-recipe-content ol {
+    padding-left: 20px;
+}
 
-    .d-none {
-        display: none !important;
-    }
+.d-none {
+    display: none !important;
+}
 
-    .img-fluid {
-        max-width: 100%;
-        height: auto;
-    }
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
 
-    .rating {
-        font-size: 1.1rem;
-        color: #ffc107;
-    }
+/* ✅ Add this to normalize all modal images */
+.recipe-modal img {
+    width: 100%;
+    height: 300px;           /* Set to your preferred consistent height */
+    object-fit: cover;       /* Crop if needed, without stretching */
+    border-radius: 10px;     /* Optional rounded corners */
+}
+
+/* Optional: style rating stars */
+.rating {
+    font-size: 1.1rem;
+    color: #ffc107;
+}
+
+    
 </style>
 
 <!-- 🧠 Script -->

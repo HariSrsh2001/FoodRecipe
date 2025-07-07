@@ -342,24 +342,25 @@ footer {
     }*/
 /* Initial animation style */
 .welcome-heading {
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: slideFadeIn 1s ease-out forwards;
-    animation-delay: 0.3s;
+    font-size: 1.5rem;
+    color: black;
     text-align: center;
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 20px;
-    
-    
+    margin-top: 50px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
 }
 
- Animation keyframes 
-@keyframes slideFadeIn {
-    to {
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
-
-

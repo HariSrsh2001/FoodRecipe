@@ -20,24 +20,23 @@
             position: sticky;
             top: 0;
             z-index: 999;
-           
             border-bottom: 1px solid #ddd;
-            box-shadow: 0 2px 4px rgba(0,0,0,.05)
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
         }
 
-        .recipe-grid {
-            display: grid;
-            gap: 24px;
-            grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
-            margin: 40px 0
-        }
+        /* .recipe-grid {
+                    display: grid;
+                    gap: 24px;
+                    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+                    margin: 40px 0;
+                } */
 
         .recipe-card {
             background: #fff;
             border: 1px solid #ddd;
             border-radius: 10px;
             padding: 18px;
-            box-shadow: 0 2px 7px rgba(0,0,0,.05)
+            box-shadow: 0 2px 7px rgba(0, 0, 0, .05);
         }
 
             .recipe-card img {
@@ -45,42 +44,88 @@
                 height: 180px;
                 object-fit: cover;
                 border-radius: 8px;
-                margin-bottom: 10px
+                margin-bottom: 10px;
             }
 
         .rating {
             color: #ffc107;
-            font-weight: 600
+            font-weight: 600;
         }
 
         .details-section h4 {
             font-size: 1rem;
             margin-top: 12px;
-            color: #ff7047
+            color: #ff7047;
         }
 
         .bottom-buttons .btn {
             width: 100%;
-            margin-bottom: 6px
+            margin-bottom: 6px;
         }
+
+        /* ✅ White outline button styles */
+        .btn-outline-white {
+            color: white;
+            border-color: white;
+            background-color: transparent;
+        }
+
+            .btn-outline-white:hover,
+            .btn-outline-white:focus,
+            .btn-outline-white:active,
+            .btn-outline-white.active,
+            .btn-outline-white:focus-visible {
+                color: #333;
+                background-color: white;
+                border-color: white;
+            }
+
+            /* 🎨 Optional: Colored background on hover by type */
+            .btn-outline-white.approved:hover {
+                background-color: #28a745; /* green */
+                color: white;
+            }
+
+            .btn-outline-white.pending:hover {
+                background-color: #ffc107; /* yellow */
+                color: white;
+            }
+
+            .btn-outline-white.users:hover {
+                background-color: #17a2b8; /* blue */
+                color: white;
+            }
+
+            .btn-outline-white.logout:hover {
+                background-color: #dc3545; /* red */
+                color: white;
+            }
+
     </style>
 </head>
 
 <body class="bg-light">
     <header class="topbar d-flex justify-content-between align-items-center p-3">
-        <img src="~/images/Delicious_Recipes.png" alt="Logo" />
-        <h3>Delicious Recipes</h3>
+        @* <img src="~/images/Delicious_Recipes.png" alt="Logo" />
+        <h3>Delicious Recipes</h3> *@
+        <div class="logo-title d-flex align-items-center gap-2">
+            <img src="~/images/Delicious_Recipes.png" alt="Logo" class="logo-img" />
+            <h3 class="mt-0">Delicious Recipes </h3>
+        </div>
         <h3>Admin Dashboard</h3>
         
         <div>
             <a asp-controller="Admin" asp-action="Dashboard" asp-route-status="approved"
-               class="btn btn-outline-primary btn-sm me-2">Approved ✅</a>
+               class="btn btn-outline-white btn-sm me-2 approved">Approved ✅</a>
+
             <a asp-controller="Admin" asp-action="Dashboard" asp-route-status="pending"
-               class="btn btn-outline-warning btn-sm me-3">Pending ⏳</a>
+               class="btn btn-outline-white btn-sm me-3 pending">Pending ⏳</a>
+
             <a asp-controller="Admin" asp-action="Users"
-               class="btn btn-outline-info btn-sm me-2">Users 👥</a>
+               class="btn btn-outline-white btn-sm me-2 users">Users 👥</a>
+
             <a asp-controller="Admin" asp-action="Logout"
-               class="btn btn-outline-danger btn-sm">Logout 🔒</a>
+               class="btn btn-outline-white btn-sm logout">Logout 🔒</a>
         </div>
     </header>
 
