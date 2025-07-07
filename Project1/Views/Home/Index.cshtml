@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = null;
+}
+
+@* <div class="container text-center mt-5">
+    <h1 class="display-4">Welcome to Recipe World</h1>
+    <p class="lead mb-4">Discover, save, and create delicious recipes!</p>
+
+    <div class="d-flex justify-content-center gap-3 mb-5">
+        <a class="btn btn-primary btn-lg" asp-controller="Recipes" asp-action="Index">Browse Recipes</a>
+        <a class="btn btn-outline-success btn-lg" asp-controller="Recipes" asp-action="MyRecipes">My Recipes</a>
+    </div>
+
+    <img src="~/images/Delicious_Recipes.png" alt="Delicious Food" class="img-fluid rounded shadow" style="max-height: 400px;">
+</div> *@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Delicious Recipe App</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <img src="images/Delicious_Recipes.png" alt="Logo" />
+        <h1>Delicious Recipes</h1>
+        <nav id="headerNav">
+            <button onclick="renderPage('veg')">Veg 🥦</button>
+            <button onclick="renderPage('nonveg')">Non-Veg 🍗</button>
+            <button onclick="renderPage('beverages')">Beverages 🍹</button>
+            <button onclick="renderSaved()">Saved ❤️</button>
+            <button onclick="renderFavorites()">Favorites 🌟</button>
+            <button onclick="renderMyRecipes()">My Recipes ✍️</button>
+        </nav>
+        <button id="toggleTheme" onclick="toggleTheme()">🌓</button>
+    </header>
+
+    <main id="mainContent">
+        <h1>Hello</h1>
+    </main>
+
+    <footer>&copy; Delicious Recipe</footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="~/js/site.js"></script>
+</body>
+</html>
+

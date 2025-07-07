@@ -1,0 +1,17 @@
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\bin\Debug\net9.0\Food_Recipe.DAL.deps.json
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\bin\Debug\net9.0\Food_Recipe.DAL.runtimeconfig.json
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\bin\Debug\net9.0\Food_Recipe.DAL.dll
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\bin\Debug\net9.0\Food_Recipe.DAL.pdb
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\bin\Debug\net9.0\Food_Recipe.Domain.dll
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\bin\Debug\net9.0\Food_Recipe.Domain.pdb
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Recipe.DAL.csproj.AssemblyReference.cache
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Recipe.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Recipe.DAL.AssemblyInfoInputs.cache
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Recipe.DAL.AssemblyInfo.cs
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Recipe.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Rec.5152D4FF.Up2Date
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Recipe.DAL.dll
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\refint\Food_Recipe.DAL.dll
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Recipe.DAL.pdb
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\Food_Recipe.DAL.genruntimeconfig.cache
+C:\Users\Kaar User\source\repos\Food_Recipe.DAL\obj\Debug\net9.0\ref\Food_Recipe.DAL.dll

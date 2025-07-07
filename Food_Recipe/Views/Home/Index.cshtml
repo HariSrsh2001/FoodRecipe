@@ -1,0 +1,80 @@
+﻿@model List<Food_Recipe.Domain.Models.Recipe>
+
+@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@* <header>
+    <img src="~/images/Delicious_Recipes.png" alt="Logo" />
+    <h1>Delicious Recipes</h1>
+    <nav id="headerNav">
+        <button onclick="location.href='@Url.Action("Veg", "Home")'">Veg 🥦</button>
+        <button onclick="location.href='@Url.Action("NonVeg", "Home")'">Non-Veg 🍗</button>
+        <button onclick="location.href='@Url.Action("Beverages", "Home")'">Beverages 🍹</button>
+        <button onclick="location.href='@Url.Action("Saved", "Home")'">Saved ❤️</button>
+        <button onclick="location.href='@Url.Action("Favorite", "Home")'">Favorites 🌟</button>
+        <button onclick="location.href='@Url.Action("MyRecipes", "Home")'">My Recipes ✍️</button>
+    </nav>
+    <button id="toggleTheme" onclick="document.body.classList.toggle('dark-theme')">🌓</button>
+</header> *@
+
+<main>
+    <section class="section">
+        <h2>All Recipes</h2>
+        <div class="recipe-grid">
+            @foreach (var recipe in Model)
+            {
+                <div class="card recipe-card">
+                    <img src="@recipe.Img" alt="@recipe.Name" />
+                    <h3>@recipe.Name (@recipe.Category)</h3>
+                    <p class="rating">⭐ @recipe.Rating / 5</p>
+                    <p>@recipe.Description</p>
+
+                    <div class="details-section">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            @foreach (var ing in recipe.Ingredients)
+                            {
+                                <li>@ing</li>
+                            }
+                        </ul>
+
+                        <h4>Instructions:</h4>
+                        <ol>
+                            @foreach (var step in recipe.Instructions)
+                            {
+                                <li>@step</li>
+                            }
+                        </ol>
+
+                        @if (recipe.Nutrition != null)
+                        {
+                            <h4>Nutrition:</h4>
+                            <ul>
+                                <li>Calories: @recipe.Nutrition.Calories</li>
+                                <li>Protein: @recipe.Nutrition.Protein</li>
+                                <li>Carbs: @recipe.Nutrition.Carbs</li>
+                                <li>Fat: @recipe.Nutrition.Fat</li>
+                            </ul>
+                        }
+                    </div>
+                    
+
+                    <div class="bottom-buttons">
+                        <form asp-action="AddToSaved" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@recipe.Id" />
+                            <button type="submit" class="btn btn-sm btn-outline-primary">💾 Save</button>
+                        </form>
+
+                        <form asp-action="AddToFavorite" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@recipe.Id" />
+                            <button type="submit" class="btn btn-sm btn-outline-danger">❤️ Favorite</button>
+                        </form>
+                    </div>
+                    </div>
+                
+            }
+        </div>
+    </section>
+</main>

@@ -1,0 +1,14 @@
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\bin\Debug\net9.0\Food_Recipe.Domain.deps.json
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\bin\Debug\net9.0\Food_Recipe.Domain.runtimeconfig.json
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\bin\Debug\net9.0\Food_Recipe.Domain.dll
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\bin\Debug\net9.0\Food_Recipe.Domain.pdb
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.Domain.csproj.AssemblyReference.cache
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.Domain.AssemblyInfoInputs.cache
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.Domain.AssemblyInfo.cs
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.Domain.dll
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\refint\Food_Recipe.Domain.dll
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.Domain.pdb
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\Food_Recipe.Domain.genruntimeconfig.cache
+C:\Users\Kaar User\source\repos\Food_Recipe.Domain\obj\Debug\net9.0\ref\Food_Recipe.Domain.dll

@@ -1,0 +1,198 @@
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\js\site.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\favicon.ico
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\json\Recipes.json
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\css\site.css
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\Kaar User\source\repos\Food_Recipe\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\images\Background_Image.jpg
+wwwroot\images\Beef_Stew.webp
+wwwroot\images\Cauliflower_Tacos.webp
+wwwroot\images\Chai_Tea.webp
+wwwroot\images\chef.jpg
+wwwroot\images\Chicken_Biryani.webp
+wwwroot\images\Classic_Spaghetti.webp
+wwwroot\images\Cold_Brew_Coffee.webp
+wwwroot\images\Delicious_Recipes.png
+wwwroot\images\Egg_Curry.webp
+wwwroot\images\Fish_Curry.webp
+wwwroot\images\Green_Tea.webp
+wwwroot\images\Grilled_chicken.webp
+wwwroot\images\Hot_Chocolate.webp
+wwwroot\images\Iced_Coffee.webp
+wwwroot\images\Lemonade.webp
+wwwroot\images\logo.png
+wwwroot\images\Mango_Smoothie.webp
+wwwroot\images\Mushroom_Risotto.webp
+wwwroot\images\pancakes.webp
+wwwroot\images\Paneer_Butter_Masala.webp
+wwwroot\images\pasta.webp
+wwwroot\images\Pork_Ribs.webp
+wwwroot\images\Quinoa_Salad.webp
+wwwroot\images\Register.jpg
+wwwroot\images\salad.webp
+wwwroot\images\Shrimp_Scampi.webp
+wwwroot\images\Strawberry_Lemonade.webp
+wwwroot\images\Stuffed_Bell_Peppers.webp
+wwwroot\images\Turkey_Meatballs.webp
+wwwroot\images\Vegetable_Biryani.webp
+wwwroot\images\Veggie_Stir_Fry.webp
+wwwroot\js\site.js
+wwwroot\json\Recipes.json
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\uploads\09f74ff2-abe2-49d8-be9d-c149ffaee2e2.webp
+wwwroot\uploads\0c312423-d8fa-4bf0-9776-b8b36aafd928.webp
+wwwroot\uploads\23cf68fe-5f5a-4aaa-9bd4-382c9b5e09c2.webp
+wwwroot\uploads\274a2fc3-14f6-434a-8026-368bfcd858dc.webp
+wwwroot\uploads\497066c1-c06d-44c7-a6bc-83af8a63e765.webp
+wwwroot\uploads\5b13c3bb-b06a-4c94-bc7f-33639cd1786f.webp
+wwwroot\uploads\5b3f7103-9c9d-43fd-ada4-8c2a86837e39.webp
+wwwroot\uploads\5f0a6dcf-19b5-4433-83e6-91c92f458d75.webp
+wwwroot\uploads\5f7c6072-9f4b-4511-a21a-324c8f26776c.webp
+wwwroot\uploads\692974a5-bf1b-43a6-96fe-60c2cb8ce5e4.webp
+wwwroot\uploads\6c41e992-1455-43c6-86e7-94e2fe34324e.webp
+wwwroot\uploads\74d14993-1528-44a7-8bcb-89adf066a665.jpg
+wwwroot\uploads\7ab51a2b-6f44-46bb-b095-0a1e3dd0edda.webp
+wwwroot\uploads\7afdae61-a53b-4cc4-ab91-2886d3e95417.webp
+wwwroot\uploads\8212fb16-3b00-4c3c-8a29-38f562a18401.webp
+wwwroot\uploads\8b6a4597-9fbb-4ca9-973e-3444de713d31.jpg
+wwwroot\uploads\95882980-3f60-4977-b203-9ea7c6c417ce.webp
+wwwroot\uploads\b1572f6c-64d3-4a31-bd04-86d0c0170f66.webp
+wwwroot\uploads\b24cd0f5-3bbc-4912-a4be-90bec67a8b8f.webp
+wwwroot\uploads\b9c6d6dd-774d-48dd-9796-ffd38a03166e.webp
+wwwroot\uploads\bbdaaba0-5bbb-4c04-99cd-d5f8008a854f.webp
+wwwroot\uploads\Beef_Stew.webp
+wwwroot\uploads\biryani.webp
+wwwroot\uploads\buger.jpg
+wwwroot\uploads\c0d2390c-0bdf-4b01-96c4-9b652a8d70b4.webp
+wwwroot\uploads\c38f8170-81a1-4a32-8b99-fb991c41d394.webp
+wwwroot\uploads\c764f400-b1aa-4448-a331-9383bd30f666.webp
+wwwroot\uploads\cab066f2-d248-4034-87c2-83cced6a1be0.webp
+wwwroot\uploads\cake.jpg
+wwwroot\uploads\Chicken_Biryani.webp
+wwwroot\uploads\dce63db0-9caf-47ad-9c13-29bea9d85908.webp
+wwwroot\uploads\e303b0f7-80b8-4c5e-8d1f-ac2bfd08f0d2.webp
+wwwroot\uploads\e50d3c2c-0e26-403a-9916-e57f31c1531b.webp
+wwwroot\uploads\e53a402a-cd7f-4c11-92c3-9059d65b4fe4.webp
+wwwroot\uploads\ea6a8566-c02a-4ec7-8a08-486e4aeafeac.webp
+wwwroot\uploads\f213b04c-946c-4eee-88c3-57789c856e64.webp
+wwwroot\uploads\fdcbb01e-5f7b-4336-aed0-b55977363530.webp
+wwwroot\uploads\gallary_3.jpg
+wwwroot\uploads\Hot_dog.jpg
