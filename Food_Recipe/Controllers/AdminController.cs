@@ -9,12 +9,13 @@ public class AdminController : Controller
     private readonly IAdminService _admin;
     public AdminController(IAdminService admin) => _admin = admin;
 
+    //Gets a list of all users from the service.
     public IActionResult Users()
     {
         var users = _admin.GetAllUsers();
         return View(users);
     }
-
+    //View pending or approved recipes
     public IActionResult Dashboard(string status = "approved")
     {
         status = (status ?? "approved").ToLower();
@@ -25,6 +26,7 @@ public class AdminController : Controller
     }
 
     [HttpGet]
+    //Show edit form for a pending recipe
     public IActionResult EditRecipe(int id)
     {
         var rec = _admin.GetPendingRecipe(id);
@@ -35,6 +37,7 @@ public class AdminController : Controller
     }
 
     [HttpPost]
+    //Save admin-edited recipe
     public IActionResult EditRecipe(PendingUserRecipe form)
     {
         bool updated = _admin.UpdatePendingRecipe(form);
@@ -43,6 +46,7 @@ public class AdminController : Controller
     }
 
     [HttpPost]
+    //Approve a recipe
     public IActionResult Approve(int id)
     {
         _admin.ApproveRecipe(id);
@@ -50,12 +54,14 @@ public class AdminController : Controller
     }
 
     [HttpPost]
+    //Reject a recipe
     public IActionResult Reject(int id)
     {
         _admin.RejectRecipe(id);
         return RedirectToAction("Dashboard", new { status = "pending" });
     }
 
+    //Log out admin (clears session)
     public IActionResult Logout()
     {
         HttpContext.Session.Clear();

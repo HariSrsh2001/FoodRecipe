@@ -25,6 +25,8 @@ namespace Food_Recipe.Services.Implementations
             await _repo.AddAsync(user);
         }
 
+        //Logs in the user by matching their username/email and password.
+        //Returns user if match found, else null.
         public async Task<User?> LoginAsync(string input, string password)
         {
             var user = await _repo.FindForLoginAsync(input);

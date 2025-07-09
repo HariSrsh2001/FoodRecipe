@@ -23,9 +23,11 @@ namespace Food_Recipe.Controllers
 
         // ---------- Register ----------
         [HttpGet]
+        //Show the Register Page
         public IActionResult Register() => View();
 
         [HttpPost]
+            //Handle Registration Submission
         public async Task<IActionResult> Register(User user)
         {
             if (!ModelState.IsValid)
@@ -86,12 +88,13 @@ namespace Food_Recipe.Controllers
                                           string Ingredients, string Instructions, int Rating,
                                           string Description)
         {
-            var user = HttpContext.Session.GetString("Username") ?? "Guest";
-            if (user == "Guest")
-                return RedirectToAction("Login");
+            var user = HttpContext.Session.GetString("Username") ;
+            //if (user == "Guest")
+            //    return RedirectToAction("Login");
 
             var imgUrl = _recipes.SaveImage(imageFile, _env.WebRootPath);
 
+            //creates a PendingUserRecipe object and submits it for approval.
             _recipes.SubmitUserRecipe(new PendingUserRecipe
             {
                 Username = user,

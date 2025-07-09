@@ -7,7 +7,10 @@ namespace Food_Recipe.Services.Implementations;
 public class AdminService : IAdminService
 {
     private readonly IAdminRepository _repo;
-    public AdminService(IAdminRepository repo) => _repo = repo;
+    public AdminService(IAdminRepository repo)
+    {
+        _repo = repo;
+    }
 
     public List<User> GetAllUsers() => _repo.GetAllUsers();
 

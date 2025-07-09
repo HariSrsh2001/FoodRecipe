@@ -4,6 +4,7 @@ using Food_Recipe.DAL.Repositories;
 using Food_Recipe.Domain.Interfaces;
 using Food_Recipe.Services.Implementations;
 using Food_Recipe.Services.Interfaces;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,14 +17,12 @@ builder.Services.AddDbContext<FoodRecipeDbContext>(options =>
 builder.Services.AddScoped<IUserRepository, UserRepository>(); 
 builder.Services.AddScoped<IRecipeRepository, RecipeRepository>();
 builder.Services.AddScoped<IAdminRepository, AdminRepository>();
-builder.Services.AddScoped<ISavedRepository, SavedRepository>();
-builder.Services.AddScoped<IFavoriteRepository, FavoriteRepository>();
+
 
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IRecipeService, RecipeService>();
 builder.Services.AddScoped<IAdminService, AdminService>();
-builder.Services.AddScoped<ISavedService, SavedService>();
-builder.Services.AddScoped<IFavoriteService, FavoriteService>();
+
 
 // Add MVC and session
 builder.Services.AddControllersWithViews();
@@ -39,5 +38,7 @@ app.UseSession();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=User}/{action=Login}/{id?}");
+
+
 
 app.Run();

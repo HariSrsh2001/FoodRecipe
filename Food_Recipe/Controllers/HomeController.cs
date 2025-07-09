@@ -10,9 +10,16 @@ using Food_Recipe.Services.Interfaces;
 namespace Food_Recipe.Controllers;
 public class HomeController : Controller
 {
+    //It gives the controller access to recipe-related operations
+    //defined in the IRecipeService
     private readonly IRecipeService _service;
+
+    //It stores information about the web server environment (like file paths),
+    //so the app can access things like the wwwroot folder.
     private readonly IWebHostEnvironment _env;
 
+    //constructor that injects IRecipeService and IWebHostEnvironment
+    //so the controller can use them.
     public HomeController(IRecipeService service, IWebHostEnvironment env)
     {
         _service = service;
@@ -145,23 +152,40 @@ public class HomeController : Controller
     }
 
     /* ------------------ Favourite / Save ------------------ */
+    //This method runs when a POST request is made (e.g., from a form or button click).
+    //It takes a recipe id and calls AddMark(id, true), which marks the recipe as a favorite.
     [HttpPost] public IActionResult AddToFavorite(int id) => AddMark(id, true);
     [HttpPost] public IActionResult AddToSaved(int id) => AddMark(id, false); [HttpPost]
-    public IActionResult RemoveSaved(int id)
+   
+
+    [HttpPost]
+    public async Task<IActionResult> RemoveSaved(int id)
     {
         var username = UserName();
-        _service.RemoveSavedRecipe(id, username); // Make sure this method exists in your service
+
+        //if (username == "Guest")
+        //    return RedirectToAction("Login", "User");
+
+        await _service.RemoveSavedRecipeAsync(id, username); // async method in service
         return RedirectToAction("Saved");
     }
+
     [HttpPost]
-    public IActionResult RemoveFavorite(int id)
+    public async Task<IActionResult> RemoveFavorite(int id)
     {
-        _service.RemoveFavoriteRecipe(id, UserName());
+        var username = UserName();
+
+        //if (username == "Guest")
+        //    return RedirectToAction("Login", "User");
+
+        await _service.RemoveFavoriteRecipeAsync(id, username); // async method in service
         return RedirectToAction("Favorite");
     }
 
 
 
+    //method adds a recipe to either favorites or saved list depending on the fav flag,
+    //and redirects the user back to the page they came from.
     private IActionResult AddMark(int id, bool fav)
     {
         var username = UserName();

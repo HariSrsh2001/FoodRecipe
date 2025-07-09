@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Food_Recipe.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebc98673d2e51f9472275381a0186a5ca235a0dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9a6a15eda76fe1896ae6ca9760697cdc1e24186")]
 [assembly: System.Reflection.AssemblyProductAttribute("Food_Recipe.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Food_Recipe.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

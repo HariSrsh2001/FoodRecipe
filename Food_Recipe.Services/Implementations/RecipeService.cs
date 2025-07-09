@@ -58,6 +58,8 @@ namespace Food_Recipe.Services.Implementations
                  .ToList()
                  .Select(Convert)
                  .ToList();
+        //convert -method that transforms a RecipeEntity object (from the database)
+        //into a Recipe object (used in your application/UI).
 
         public List<Recipe> GetSavedByUsername(string username) =>
             _repo.FoodRecipes()
@@ -66,14 +68,23 @@ namespace Food_Recipe.Services.Implementations
                  .Select(Convert)
                  .ToList();
 
+        //Mark->this recipe as favorite for the user
+        //Add->Add this record to the FavoriteRecipes table
         public void MarkFavorite(int recipeId, string username) => _repo.AddFavorite(username, recipeId);
         public void MarkSaved(int recipeId, string username) => _repo.AddSaved(username, recipeId);
 
-        public void RemoveSavedRecipe(int recipeId, string username)
-    => _repo.RemoveSaved(username, recipeId);
+    //    
 
-        public void RemoveFavoriteRecipe(int recipeId, string username)
-    => _repo.RemoveFavorite(username, recipeId);
+        public async Task RemoveSavedRecipeAsync(int recipeId, string username)
+        {
+            await _repo.RemoveFromSavedAsync(username, recipeId);
+        }
+
+        public async Task RemoveFavoriteRecipeAsync(int recipeId, string username)
+        {
+            await _repo.RemoveFromFavoriteAsync(username, recipeId);
+        }
+
 
 
 
